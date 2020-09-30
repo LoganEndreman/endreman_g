@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="2AHBX]8RnZG7oA!6-%g?">Enderman</variable><variable type="KIND_SpriteKind" id="C2rd9E6;wx@k9FOL2hcC">Player</variable><variable type="KIND_SpriteKind" id="RD#)a[Phcj=iR3sKgm;I">Projectile</variable><variable type="KIND_SpriteKind" id="bR+yC;kc/xIosiSYq$Pt">Food</variable><variable type="KIND_SpriteKind" id="{8.:*!M+oF#9t~;[)s5f">Enemy</variable></variables><block type="pxt-on-start" id="Z6Xx*m*F(Np;*WF+a[Dg" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundcolor" id="S.)UXF=#4L`[CC!AQY7L"><value name="color"><shadow type="colorindexpicker" id="u9yGo8pr=Xi(cM!k-K7G"><field name="index">4</field></shadow></value><next><block type="variables_set" id="r{z{.UeO*V*f/wIg2@3G"><field name="VAR" id="2AHBX]8RnZG7oA!6-%g?">Enderman</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="_yz9N/ZHBqIItqxkE|,j"><value name="img"><shadow type="screen_image_picker" id="mLxs4$T%A$gnZ}~~2:ku"><field name="img">img`
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f a a a a f a a a a f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f . . . . . . . . . . . . . . f 
+f . . . . . . . . . . . . . . f 
+f . . . . . . . . . . . . . . f 
+f . . . . . . . . . . . . . . f 
+f . . . . . . . . . . . . . . f 
+f . . . . . . . . . . . . . . f 
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="In#ZE+aKRBw?m^Suq*+U"><field name="MEMBER">Player</field></shadow></value></block></value></block></next></block></statement></block><block type="keyonevent" id="j4v$OCgZ?nOa2|n)Q{h;" x="60" y="240"><field name="button">controller.A</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="hudsetScore" id="ZaOpV*g(2-UTO|+]415G"><value name="value"><shadow type="math_number" id="nuB8$bb!mmA;lzQ%-mqA"><field name="NUM">1</field></shadow></value><next><block type="spritesay" id="J3%4Op?vxSEzV0~H;=1I"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="hhC/@)VE`;WG`MwBg?-{"><field name="VAR" id="2AHBX]8RnZG7oA!6-%g?">Enderman</field></block></value><value name="text"><shadow type="text" id="V+wv{L1a4Li%H15J!,|W"><field name="TEXT">Sssss</field></shadow></value><next><block type="playMelody" id="aQAoH1!}#RO@rXDB~g8b"><value name="melody"><shadow type="melody_editor" id="SiTQO6u422O;c|wnjo1D"><field name="melody">"- - G - - E B - "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="B|#/QfrJK.WUw=x)r33I"><mutation min="40" max="500" label="Number" precision="0"/><field name="SLIDER">120</field></shadow></value></block></next></block></next></block></statement></block></xml>
